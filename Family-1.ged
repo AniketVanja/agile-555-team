@@ -1,0 +1,176 @@
+0 HEAD
+1 SOUR Family Echo
+2 WWW http://www.familyecho.com/
+1 FILE My Family
+1 DATE 2 FEB 2023
+1 DEST ANSTFILE
+1 GEDC
+2 VERS 5.5.1
+2 FORM LINEAGE-LINKED
+1 SUBM @I1@
+2 NAME avanja@stevens.edu
+1 SUBN
+1 CHAR UTF-8
+0 @I1@ INDI
+1 NAME Dinesh /Pulluru/
+2 GIVN Dinesh
+2 SURN Pulluru
+2 _MARNM Pulluru
+1 SEX M
+1 BIRT
+2 DATE 25 MAY 1998
+1 FAMS @F1@
+1 FAMS @F2@
+0 @I2@ INDI
+1 NAME Vennela /Velaga/
+2 GIVN Vennela
+2 SURN Velaga
+2 _MARNM Pulluru
+1 SEX F
+1 BIRT
+2 DATE 16 APR 2000
+1 FAMS @F1@
+0 @I3@ INDI
+1 NAME Dinnu /Pulluru/
+2 GIVN Dinnu
+2 SURN Pulluru
+2 _MARNM Pulluru
+1 SEX M
+1 FAMS @F7@
+1 FAMC @F1@
+0 @I4@ INDI
+1 NAME Dinni /Pulluru/
+2 GIVN Dinni
+2 SURN Pulluru
+2 _MARNM Pulluru
+1 SEX F
+1 FAMC @F1@
+0 @I5@ INDI
+1 NAME Smitha /Patna/
+2 GIVN Smitha
+2 SURN Patna
+2 _MARNM Pulluru
+1 SEX F
+1 FAMS @F2@
+1 FAMS @F3@
+0 @I6@ INDI
+1 NAME Sidhu /Pulluru/
+2 GIVN Sidhu
+2 SURN Pulluru
+2 _MARNM Pulluru
+1 SEX F
+1 FAMS @F4@
+1 FAMS @F5@
+1 FAMC @F2@
+0 @I7@ INDI
+1 NAME DINSHUI /Pulluru/
+2 GIVN DINSHUI
+2 SURN Pulluru
+2 _MARNM Pulluru
+1 SEX F
+1 FAMC @F2@
+0 @I8@ INDI
+1 NAME Vijay /Kondha/
+2 GIVN Vijay
+2 SURN Kondha
+2 _MARNM Kondha
+1 SEX M
+1 FAMS @F3@
+0 @I9@ INDI
+1 NAME Rahul /Konda/
+2 GIVN Rahul
+2 SURN Konda
+2 _MARNM Konda
+1 SEX M
+1 FAMS @F5@
+1 FAMS @F6@
+0 @I10@ INDI
+1 NAME Pichi /Pulluru/
+2 GIVN Pichi
+2 SURN Pulluru
+2 _MARNM Konda
+1 SEX M
+1 FAMC @F5@
+0 @I11@ INDI
+1 NAME Machi /Konda/
+2 GIVN Machi
+2 SURN Konda
+2 _MARNM Konda
+1 FAMC @F7@
+0 @I12@ INDI
+1 NAME Reena /Razz/
+2 GIVN Reena
+2 SURN Razz
+2 _MARNM Razz
+1 SEX F
+1 FAMS @F7@
+0 @I13@ INDI
+1 NAME Rani /Grass/
+2 GIVN Rani
+2 SURN Grass
+2 _MARNM Grass
+1 SEX F
+1 FAMS @F6@
+0 @I14@ INDI
+1 NAME Vishu /Pulluru/
+2 GIVN Vishu
+2 SURN Pulluru
+2 _MARNM Pulluru
+1 SEX M
+1 FAMS @F4@
+1 FAMC @F2@
+0 @I15@ INDI
+1 NAME Sai /Pulluru/
+2 GIVN Sai
+2 SURN Pulluru
+2 _MARNM Pulluru
+1 SEX M
+1 FAMC @F4@
+0 @F1@ FAM
+1 HUSB @I1@
+1 WIFE @I2@
+1 CHIL @I3@
+1 CHIL @I4@
+1 _CURRENT Y
+1 _PRIMARY Y
+0 @F2@ FAM
+1 HUSB @I1@
+1 WIFE @I5@
+1 CHIL @I6@
+1 CHIL @I7@
+1 CHIL @I14@
+1 MARR
+1 DIV
+1 _CURRENT Y
+1 _PRIMARY N
+0 @F3@ FAM
+1 HUSB @I8@
+1 WIFE @I5@
+1 _CURRENT N
+1 _PRIMARY N
+0 @F4@ FAM
+1 HUSB @I14@
+1 WIFE @I6@
+1 CHIL @I15@
+1 _CURRENT Y
+1 _PRIMARY Y
+0 @F5@ FAM
+1 HUSB @I9@
+1 WIFE @I6@
+1 CHIL @I10@
+1 _CURRENT N
+1 _PRIMARY N
+0 @F6@ FAM
+1 HUSB @I9@
+1 WIFE @I13@
+1 _CURRENT N
+1 _PRIMARY N
+0 @F7@ FAM
+1 HUSB @I3@
+1 WIFE @I12@
+1 CHIL @I11@
+1 MARR
+1 DIV
+1 _CURRENT N
+1 _PRIMARY N
+0 TRLR
