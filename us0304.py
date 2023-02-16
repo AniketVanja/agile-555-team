@@ -1,4 +1,4 @@
-##US03 and US04
+##US03, US04 and US06s
 
 from time import monotonic, strptime
 import datetime
@@ -58,7 +58,13 @@ def US04(id,married_data,divorce_data ):
     if married_data > divorce_data:
         print("ERROR: FAMILY: US04" + id +"Divorced" + str(divorce_data)+"before married"+ str(married_data))
 
-
+def US06(id,divorce_date, death_date):
+    if (divorce_date == 0):
+        return
+    if (death_date == 0):
+        return
+    if divorce_date > death_date:
+        print("ERROR: FAMILY: US06"+ id +"Divorced" + str(divorce_date)+"before Death"+ str(death_date))
 
 
 def Gparse(file_name):
@@ -138,6 +144,16 @@ def Main(file_name):
         married_data = person[3]
         divorce_data = person[4]
         US04(id,married_data,divorce_data)
+    #US06
+    for person in pdata:
+        id = person[0]
+        death_date = person[4]
+        for person1 in fdata:
+            id1 = person1[0]
+            if(id1 == id):
+                divorce_data = person1[4]
+                US06(id, divorce_data,death_date)
 
-Main('/Users/byy/Desktop/testforU0304.ged')
+
+Main('C:/Users/Arun Rao Nayineni/agile-555-team/testforU0304.ged')
     
