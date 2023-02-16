@@ -49,14 +49,3 @@ class GEDCOM:
                     return False
 
         return True
-    # def is_marriage_before_death(self, person_id):
-    #     person = self.get_person_by_id(person_id)
-    #     spouse_id = person.get_spouse_id()
-    #     if spouse_id is None:
-    #         return False
-    #     spouse = self.get_person_by_id(spouse_id)
-    #     if spouse.is_alive() or person.is_alive():
-    #         return True
-    #     if person.get_death_date() is None or spouse.get_death_date() is None:
-    #         return True
-    #     return person.get_marriage_date() < person.get_death_date() and spouse.get_marriage_date() < spouse.get_death_date()
