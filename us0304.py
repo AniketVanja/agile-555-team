@@ -64,7 +64,7 @@ def US06(id,divorce_date, death_date):
     if (death_date == 0):
         return
     if divorce_date > death_date:
-        print("ERROR: FAMILY: US06"+ id +"Divorced" + str(divorce_date)+"before Death"+ str(death_date))
+        print("ERROR: FAMILY: US06"+ id +"Death" + str(death_date)+"before Divorce"+ str(divorce_date))
 
 
 def Gparse(file_name):
